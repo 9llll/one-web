@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>页面标题</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="generator" content="memorial-page-template" />
+    <link rel="bookmark" href="favicon.png" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" id="google-fonts-2-css" href="fonts/google-fonts.css" type="text/css" media="all" />
+    <script src="js/jquery-1.8.0.min.js"></script>
+  </head>
+  <body>
+    <!-- 侧边导航：内容由 js/render.js 依据内容分节自动生成 -->
+    <div id="menu">
+      <a href="#top" title="返回顶部"><span class="gotop"><i class="fa fa-chevron-up" aria-hidden="true"></i></span></a>
+      <ul id="menu-list"></ul>
+      <a href="#footer" title="返回底部"><span class="gobottom"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+    </div>
+
+    <div id="app">
+      <img id="svg" />
+      <div class="content markdown-body override">
+        <section>
+          <h1 class="fohr" id="hero-big"></h1>
+          <h1 class="father" id="hero-title"></h1>
+          <p id="poet" hidden></p>
+          <div id="topinfo"></div>
+          <blockquote>
+            <div id="content">
+              <dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+                <dd class="lemmaWgt-lemmaTitle-title">
+                  <h1><i class="fa fa-book" aria-hidden="true"></i> <span id="intro-title"></span></h1>
+                  <h2></h2>
+                </dd>
+              </dl>
+              <div class="info1" id="intro-paragraphs"></div>
+
+              <div class="basic-info cmn-clearfix" id="basic-info">
+                <dl class="basicInfo-block basicInfo-left" id="facts-left"></dl>
+                <dl class="basicInfo-block basicInfo-right" id="facts-right"></dl>
+              </div>
+
+              <div class="lemmaWgt-lemmaCatalog" id="catalog-wrap">
+                <div class="lemma-catalog">
+                  <h2 class="block-title"><i class="fa fa-folder-open" aria-hidden="true"></i> 目录</h2>
+                  <div class="catalog-list column-3" id="catalog"></div>
+                </div>
+              </div>
+
+              <!-- 正文分节渲染在这里 -->
+              <div id="sections"></div>
+            </div>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+
+    <div class="footer" id="footer">
+      <div class="container">
+        <ul class="pull-right footer-menu" id="footer-menu"></ul>
+      </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
