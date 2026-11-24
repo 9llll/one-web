@@ -5,6 +5,9 @@
 
 ![预览](preview.png)
 
+- **在线演示**：<https://one-web-4pi.pages.dev>
+- **模板仓库**：<https://github.com/9llll/one-web>（已开启 `Use this template`）
+
 - **零构建**：没有 Node/编译步骤，Cloudflare Pages 直接托管即可
 - **零配置**：CDN、HTTPS、全球节点由 Cloudflare Pages 提供
 - **可复用**：fork 一份 → 改 `config.js` + `js/content.js` → 自动部署
